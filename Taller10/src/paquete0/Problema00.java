@@ -17,11 +17,11 @@ public class Problema00 {
         String[] nombresEstudiante = {"Jose A", "Elena J", "Paúl L"};
         double[] sumaNotas = new double[3];
                             
-        double suma = 0;
+        double suma ;
         String reporte = "";
         
         for (int i = 0; i < notas.length; i++) { 
-            
+            suma = 0;
             for (int j = 0; j < notas[i].length; j++) { 
                 suma = suma + notas[i][j];
                      
@@ -32,7 +32,7 @@ public class Problema00 {
         // Presentación de resultados
         for (int i = 0; i < nombresEstudiante.length; i++) {
             reporte = String.format("%sEstudiante %s tiene una sumataria "
-                    + "de notas: %.3f\n",
+                    + "de notas: %.2f\n",
                     reporte,
                     nombresEstudiante[i],
                     sumaNotas[i]);
