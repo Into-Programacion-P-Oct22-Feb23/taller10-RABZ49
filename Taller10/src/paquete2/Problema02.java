@@ -38,7 +38,8 @@ public class Problema02 {
             System.out.printf("Vendedor(a) %s\n", vendedores[i]);
 
         }
-        System.out.printf("Ha realizado un total de %d en ventas.\n", suma);
+        System.out.printf("Ha realizado un total de %d en ventas.\n",
+                suma);
 
     }
 }
